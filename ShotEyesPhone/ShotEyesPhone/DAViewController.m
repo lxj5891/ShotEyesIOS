@@ -1,15 +1,12 @@
 //
 //  DAViewController.m
-//  ShotEyes
-//1123123123
-//  Created by Antony on 13-12-27.
+//  ShotEyesPhone
+//
+//  Created by Antony on 13-12-30.
 //  Copyright (c) 2013年 DAC. All rights reserved.
 //
 
 #import "DAViewController.h"
-#import "DAReportCreateViewController.h"
-#import "DAReportViewController.h"
-
 
 @interface DAViewController ()
 
@@ -21,14 +18,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void) viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-    DAReportViewController *vc = [[DAReportViewController alloc] initWithNibName:@"DAReportViewController" bundle:nil];
-    [self.navigationController pushViewController:vc animated:animated];
-    
 }
 
 - (void)didReceiveMemoryWarning

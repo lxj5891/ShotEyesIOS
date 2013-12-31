@@ -4,8 +4,6 @@
 //  The contents of this file are implicitly included at the beginning of every source file.
 //
 
-#import <SystemConfiguration/SystemConfiguration.h>
-#import <MobileCoreServices/MobileCoreServices.h>
 #import <Availability.h>
 
 #ifndef __IPHONE_5_0
