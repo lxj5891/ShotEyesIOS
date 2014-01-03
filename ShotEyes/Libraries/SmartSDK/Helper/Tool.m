@@ -10,6 +10,12 @@
 
 @implementation Tool
 
++ (NSString *) fullPath:(NSString *)fileName
+{
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *newFileName = [fileName stringByReplacingOccurrencesOfString:@":" withString:@""];
+    return [NSString stringWithFormat:@"%@/%@", [paths objectAtIndex:0], newFileName];
+}
 
 + (NSString *) stringWithPad:(NSString *)str length:(int )length
 {

@@ -10,4 +10,7 @@
 
 @interface DAReportListViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIView *viewCatalog;
+@property (weak, nonatomic) IBOutlet UIView *viewList;
+
 @end

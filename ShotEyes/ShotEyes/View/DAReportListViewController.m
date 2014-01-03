@@ -7,9 +7,14 @@
 //
 
 #import "DAReportListViewController.h"
+#import "DAReportCatalogViewController.h"
+#import "DAReportItemListViewController.h"
 
 @interface DAReportListViewController ()
-
+{
+    DAReportCatalogViewController       *catalogView;
+    DAReportItemListViewController      *itemListView;
+}
 @end
 
 @implementation DAReportListViewController
@@ -26,7 +31,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    catalogView = [[DAReportCatalogViewController alloc] initWithNibName:@"DAReportCatalogViewController" bundle:nil];
+    
+    itemListView = [[DAReportItemListViewController alloc] initWithNibName:@"DAReportItemListViewController" bundle:nil];
+    
+    [self addChildViewController:itemListView];
+    [self addChildViewController:catalogView];
+    itemListView.view.frame = self.viewList.frame;
+    catalogView.view.frame = self.viewCatalog.frame;
+    [self.view addSubview:catalogView.view];
+    [self.view addSubview:itemListView.view];
 }
 
 - (void)didReceiveMemoryWarning

@@ -7,12 +7,25 @@
 //
 
 #import "DAAppDelegate.h"
-
+#import "DASettings.h"
+#import "DACommon.h"
+#import "SmartSDK.h"
+#define kInfoPlistKeyServerAddress  @"ServerAddress"
+#define kInfoPlistKeyServerPort     @"ServerPort"
 @implementation DAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [DASettings registerDefaultsFromSettingsBundle];
+    
+
+    NSString *serverAddress = @"10.2.3.245";
+    NSNumber *serverPort = [NSNumber numberWithInt:3000];
+    [[NSUserDefaults standardUserDefaults] setObject:serverAddress forKey:kServerAddress];
+    [[NSUserDefaults standardUserDefaults] setInteger:serverPort.integerValue forKey:kServerPort];
+
+    
     return YES;
 }
 							

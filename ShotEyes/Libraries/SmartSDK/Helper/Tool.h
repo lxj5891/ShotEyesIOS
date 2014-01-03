@@ -16,4 +16,8 @@
 + (NSString *) stringFromISODate:(NSDate *)isodate;
 
 + (NSString *) stringWithPad:(NSString *)str length:(int )length;
+
+// ユーザのファイル保存場所を取得
++ (NSString *) fullPath:(NSString *)fileName;
+
 @end

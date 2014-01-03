@@ -6,6 +6,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DAReportCreateViewController">
             <connections>
+                <outlet property="btnAlbum" destination="d62-Mo-CRQ" id="rJ4-EH-PPY"/>
+                <outlet property="canvasImageView" destination="qmL-GV-A4q" id="FDZ-kJ-hKy"/>
+                <outlet property="progressView" destination="2" id="TOh-Nc-IEj"/>
+                <outlet property="textComment" destination="PeW-Hr-5fe" id="XXM-ld-bZR"/>
                 <outlet property="view" destination="2" id="3"/>
             </connections>
         </placeholder>
@@ -36,6 +40,9 @@
                     <state key="normal" title="报告">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="onCreateReportTouched:" destination="-1" eventType="touchUpInside" id="BVo-QN-sbS"/>
+                    </connections>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="detail_line.png" translatesAutoresizingMaskIntoConstraints="NO" id="TaE-X7-qHd">
                     <rect key="frame" x="673" y="84" width="326" height="1"/>
@@ -49,7 +56,7 @@
                     <rect key="frame" x="673" y="296" width="326" height="1"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ui_blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="qmL-GV-A4q">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ui_blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="qmL-GV-A4q" customClass="DACanvasImageView">
                     <rect key="frame" x="20" y="20" width="634" height="574"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
@@ -59,6 +66,9 @@
                     <state key="normal" title="选择图片">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="btnAlbumsClicked:" destination="-1" eventType="touchUpInside" id="kgl-1q-CMP"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yHr-66-reJ">
                     <rect key="frame" x="337" y="612" width="30" height="30"/>
@@ -74,6 +84,10 @@
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                 </button>
+                <progressView opaque="NO" tag="900" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sXJ-jO-RbX">
+                    <rect key="frame" x="671" y="482" width="328" height="2"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </progressView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>

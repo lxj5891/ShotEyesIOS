@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DAReportViewController">
             <connections>
+                <outlet property="tabBar" destination="4B6-SV-IF6" id="A4F-Ex-OQH"/>
                 <outlet property="view" destination="2" id="3"/>
                 <outlet property="viewBlock" destination="4Oq-Pg-zIO" id="vD0-EG-1mG"/>
             </connections>
@@ -27,8 +28,8 @@
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <items>
-                        <tabBarItem title="上传" id="cvQ-L3-Xdf"/>
-                        <tabBarItem title="一览" id="rcn-gQ-2PN"/>
+                        <tabBarItem tag="1" title="上传" id="cvQ-L3-Xdf"/>
+                        <tabBarItem tag="2" title="一览" id="rcn-gQ-2PN"/>
                     </items>
                 </tabBar>
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Oq-Pg-zIO">

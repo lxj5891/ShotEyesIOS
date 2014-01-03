@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DAReportViewController : UIViewController
+@interface DAReportViewController : UIViewController<UITabBarDelegate>
 
 @property (weak, nonatomic) IBOutlet UIView *viewBlock;
+@property (weak, nonatomic) IBOutlet UITabBar *tabBar;
 
 @end

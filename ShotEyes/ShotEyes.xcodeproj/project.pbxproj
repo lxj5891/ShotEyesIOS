@@ -9,6 +9,24 @@
 /* Begin PBXBuildFile section */
 		0A3DA8A41872836E0013B15D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A578B141872704500CFC198 /* MobileCoreServices.framework */; };
 		0A3DA8A6187286B30013B15D /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DA8A5187286B30013B15D /* Settings.bundle */; };
+		0A3DA8AD187289ED0013B15D /* DAEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA8AC187289ED0013B15D /* DAEntity.m */; };
+		0A3DA8B018728A360013B15D /* DAReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA8AF18728A360013B15D /* DAReport.m */; };
+		0A3DA8B318728A4A0013B15D /* DAReportList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA8B218728A4A0013B15D /* DAReportList.m */; };
+		0A3DA8B618728A590013B15D /* DAUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA8B518728A590013B15D /* DAUser.m */; };
+		0A3DA8B918728A6D0013B15D /* DATag.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA8B818728A6D0013B15D /* DATag.m */; };
+		0A3DA8BC18728A7C0013B15D /* DATagList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA8BB18728A7C0013B15D /* DATagList.m */; };
+		0A3DA8BF18728AA90013B15D /* DAUserModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA8BE18728AA90013B15D /* DAUserModule.m */; };
+		0A3DA8C218728AC50013B15D /* DAReportModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA8C118728AC50013B15D /* DAReportModule.m */; };
+		0A3DA8C518728ADE0013B15D /* DATagModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA8C418728ADE0013B15D /* DATagModule.m */; };
+		0A3DA8C9187297C90013B15D /* DAReportCatalogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA8C7187297C90013B15D /* DAReportCatalogViewController.m */; };
+		0A3DA8CA187297C90013B15D /* DAReportCatalogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DA8C8187297C90013B15D /* DAReportCatalogViewController.xib */; };
+		0A3DA8CE187297F20013B15D /* DAReportItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA8CC187297F20013B15D /* DAReportItemListViewController.m */; };
+		0A3DA8CF187297F20013B15D /* DAReportItemListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DA8CD187297F20013B15D /* DAReportItemListViewController.xib */; };
+		0A3DA8D318729FBD0013B15D /* DACanvasImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA8D218729FBD0013B15D /* DACanvasImageView.m */; };
+		0A3DA8D61872A5410013B15D /* DAFileModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA8D51872A5410013B15D /* DAFileModule.m */; };
+		0A3DA8D91872A81E0013B15D /* DASettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA8D81872A81E0013B15D /* DASettings.m */; };
+		0A3DA8DF1872C3490013B15D /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0A3DA8DC1872C3490013B15D /* ProgressHUD.bundle */; };
+		0A3DA8E01872C3490013B15D /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3DA8DE1872C3490013B15D /* ProgressHUD.m */; };
 		0A578B0F1872700200CFC198 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A578B0E1872700200CFC198 /* SystemConfiguration.framework */; };
 		0A578B111872703900CFC198 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A578B101872703900CFC198 /* Security.framework */; };
 		0A578B131872703F00CFC198 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A578B121872703F00CFC198 /* CFNetwork.framework */; };
@@ -69,6 +87,39 @@
 
 /* Begin PBXFileReference section */
 		0A3DA8A5187286B30013B15D /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		0A3DA8AB187289ED0013B15D /* DAEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAEntity.h; sourceTree = "<group>"; };
+		0A3DA8AC187289ED0013B15D /* DAEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAEntity.m; sourceTree = "<group>"; };
+		0A3DA8AE18728A360013B15D /* DAReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAReport.h; path = Entities/DAReport.h; sourceTree = "<group>"; };
+		0A3DA8AF18728A360013B15D /* DAReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAReport.m; path = Entities/DAReport.m; sourceTree = "<group>"; };
+		0A3DA8B118728A4A0013B15D /* DAReportList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAReportList.h; path = Entities/DAReportList.h; sourceTree = "<group>"; };
+		0A3DA8B218728A4A0013B15D /* DAReportList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAReportList.m; path = Entities/DAReportList.m; sourceTree = "<group>"; };
+		0A3DA8B418728A590013B15D /* DAUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAUser.h; path = Entities/DAUser.h; sourceTree = "<group>"; };
+		0A3DA8B518728A590013B15D /* DAUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAUser.m; path = Entities/DAUser.m; sourceTree = "<group>"; };
+		0A3DA8B718728A6D0013B15D /* DATag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DATag.h; path = Entities/DATag.h; sourceTree = "<group>"; };
+		0A3DA8B818728A6D0013B15D /* DATag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DATag.m; path = Entities/DATag.m; sourceTree = "<group>"; };
+		0A3DA8BA18728A7C0013B15D /* DATagList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DATagList.h; path = Entities/DATagList.h; sourceTree = "<group>"; };
+		0A3DA8BB18728A7C0013B15D /* DATagList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DATagList.m; path = Entities/DATagList.m; sourceTree = "<group>"; };
+		0A3DA8BD18728AA90013B15D /* DAUserModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAUserModule.h; path = Module/DAUserModule.h; sourceTree = "<group>"; };
+		0A3DA8BE18728AA90013B15D /* DAUserModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAUserModule.m; path = Module/DAUserModule.m; sourceTree = "<group>"; };
+		0A3DA8C018728AC50013B15D /* DAReportModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAReportModule.h; path = Module/DAReportModule.h; sourceTree = "<group>"; };
+		0A3DA8C118728AC50013B15D /* DAReportModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAReportModule.m; path = Module/DAReportModule.m; sourceTree = "<group>"; };
+		0A3DA8C318728ADE0013B15D /* DATagModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DATagModule.h; path = Module/DATagModule.h; sourceTree = "<group>"; };
+		0A3DA8C418728ADE0013B15D /* DATagModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DATagModule.m; path = Module/DATagModule.m; sourceTree = "<group>"; };
+		0A3DA8C6187297C90013B15D /* DAReportCatalogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAReportCatalogViewController.h; path = View/DAReportCatalogViewController.h; sourceTree = "<group>"; };
+		0A3DA8C7187297C90013B15D /* DAReportCatalogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAReportCatalogViewController.m; path = View/DAReportCatalogViewController.m; sourceTree = "<group>"; };
+		0A3DA8C8187297C90013B15D /* DAReportCatalogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DAReportCatalogViewController.xib; path = View/DAReportCatalogViewController.xib; sourceTree = "<group>"; };
+		0A3DA8CB187297F20013B15D /* DAReportItemListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAReportItemListViewController.h; path = View/DAReportItemListViewController.h; sourceTree = "<group>"; };
+		0A3DA8CC187297F20013B15D /* DAReportItemListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAReportItemListViewController.m; path = View/DAReportItemListViewController.m; sourceTree = "<group>"; };
+		0A3DA8CD187297F20013B15D /* DAReportItemListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DAReportItemListViewController.xib; path = View/DAReportItemListViewController.xib; sourceTree = "<group>"; };
+		0A3DA8D118729FBD0013B15D /* DACanvasImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DACanvasImageView.h; path = View/Comp/DACanvasImageView.h; sourceTree = "<group>"; };
+		0A3DA8D218729FBD0013B15D /* DACanvasImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DACanvasImageView.m; path = View/Comp/DACanvasImageView.m; sourceTree = "<group>"; };
+		0A3DA8D41872A5410013B15D /* DAFileModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DAFileModule.h; path = Module/DAFileModule.h; sourceTree = "<group>"; };
+		0A3DA8D51872A5410013B15D /* DAFileModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DAFileModule.m; path = Module/DAFileModule.m; sourceTree = "<group>"; };
+		0A3DA8D71872A81E0013B15D /* DASettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DASettings.h; sourceTree = "<group>"; };
+		0A3DA8D81872A81E0013B15D /* DASettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DASettings.m; sourceTree = "<group>"; };
+		0A3DA8DC1872C3490013B15D /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
+		0A3DA8DD1872C3490013B15D /* ProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressHUD.h; sourceTree = "<group>"; };
+		0A3DA8DE1872C3490013B15D /* ProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressHUD.m; sourceTree = "<group>"; };
 		0A578B0E1872700200CFC198 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0A578B101872703900CFC198 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0A578B121872703F00CFC198 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -178,6 +229,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A3DA8A7187288BA0013B15D /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DA8BD18728AA90013B15D /* DAUserModule.h */,
+				0A3DA8BE18728AA90013B15D /* DAUserModule.m */,
+				0A3DA8C018728AC50013B15D /* DAReportModule.h */,
+				0A3DA8C118728AC50013B15D /* DAReportModule.m */,
+				0A3DA8C318728ADE0013B15D /* DATagModule.h */,
+				0A3DA8C418728ADE0013B15D /* DATagModule.m */,
+				0A3DA8D41872A5410013B15D /* DAFileModule.h */,
+				0A3DA8D51872A5410013B15D /* DAFileModule.m */,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		0A3DA8A8187289AC0013B15D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0A3DA8A9187289B60013B15D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DA8AE18728A360013B15D /* DAReport.h */,
+				0A3DA8AF18728A360013B15D /* DAReport.m */,
+				0A3DA8B118728A4A0013B15D /* DAReportList.h */,
+				0A3DA8B218728A4A0013B15D /* DAReportList.m */,
+				0A3DA8B418728A590013B15D /* DAUser.h */,
+				0A3DA8B518728A590013B15D /* DAUser.m */,
+				0A3DA8B718728A6D0013B15D /* DATag.h */,
+				0A3DA8B818728A6D0013B15D /* DATag.m */,
+				0A3DA8BA18728A7C0013B15D /* DATagList.h */,
+				0A3DA8BB18728A7C0013B15D /* DATagList.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		0A3DA8AA187289E00013B15D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DA8AB187289ED0013B15D /* DAEntity.h */,
+				0A3DA8AC187289ED0013B15D /* DAEntity.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		0A3DA8D018729F850013B15D /* Comp */ = {
+			isa = PBXGroup;
+			children = (
+				0ABEDB9B18764EF1005F4179 /* New Group */,
+				0A3DA8D118729FBD0013B15D /* DACanvasImageView.h */,
+				0A3DA8D218729FBD0013B15D /* DACanvasImageView.m */,
+			);
+			name = Comp;
+			sourceTree = "<group>";
+		};
+		0A3DA8DA1872C3210013B15D /* Thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DA8DB1872C3490013B15D /* ProgressHUD */,
+			);
+			name = Thirdparty;
+			sourceTree = "<group>";
+		};
+		0A3DA8DB1872C3490013B15D /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0A3DA8DC1872C3490013B15D /* ProgressHUD.bundle */,
+				0A3DA8DD1872C3490013B15D /* ProgressHUD.h */,
+				0A3DA8DE1872C3490013B15D /* ProgressHUD.m */,
+			);
+			name = ProgressHUD;
+			path = Thirdparty/ProgressHUD;
+			sourceTree = "<group>";
+		};
 		0A578ABF18724F6F00CFC198 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +317,7 @@
 		0A62AC64187281630070D5E3 /* SmartSDK */ = {
 			isa = PBXGroup;
 			children = (
+				0A3DA8AA187289E00013B15D /* Entities */,
 				0A62AC65187281630070D5E3 /* DADispatch.h */,
 				0A62AC66187281630070D5E3 /* DADispatch.m */,
 				0A62AC67187281630070D5E3 /* Helper */,
@@ -202,6 +331,8 @@
 		0A62AC67187281630070D5E3 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				0A3DA8D71872A81E0013B15D /* DASettings.h */,
+				0A3DA8D81872A81E0013B15D /* DASettings.m */,
 				0A62AC68187281630070D5E3 /* DAAFHttpClient.h */,
 				0A62AC69187281630070D5E3 /* DAAFHttpClient.m */,
 				0A62AC6A187281630070D5E3 /* DAAFHttpOperation.h */,
@@ -324,6 +455,10 @@
 		0AB1A9B3186D748800BEACDA /* ShotEyes */ = {
 			isa = PBXGroup;
 			children = (
+				0A3DA8DA1872C3210013B15D /* Thirdparty */,
+				0A3DA8A9187289B60013B15D /* Entities */,
+				0A3DA8A8187289AC0013B15D /* Resources */,
+				0A3DA8A7187288BA0013B15D /* Module */,
 				0ACC40C718715D430094EAA8 /* Resources */,
 				0ACC40561871156B0094EAA8 /* View */,
 				0AB1A9BC186D748800BEACDA /* DAAppDelegate.h */,
@@ -367,9 +502,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0ABEDB9B18764EF1005F4179 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		0ACC40561871156B0094EAA8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0A3DA8D018729F850013B15D /* Comp */,
 				0ACC4057187115A90094EAA8 /* DAReportViewController.h */,
 				0ACC4058187115A90094EAA8 /* DAReportViewController.m */,
 				0ACC4059187115A90094EAA8 /* DAReportViewController.xib */,
@@ -379,6 +522,12 @@
 				0ACC40CD187161160094EAA8 /* DAReportCreateViewController.h */,
 				0ACC40CE187161160094EAA8 /* DAReportCreateViewController.m */,
 				0ACC40CF187161160094EAA8 /* DAReportCreateViewController.xib */,
+				0A3DA8C6187297C90013B15D /* DAReportCatalogViewController.h */,
+				0A3DA8C7187297C90013B15D /* DAReportCatalogViewController.m */,
+				0A3DA8C8187297C90013B15D /* DAReportCatalogViewController.xib */,
+				0A3DA8CB187297F20013B15D /* DAReportItemListViewController.h */,
+				0A3DA8CC187297F20013B15D /* DAReportItemListViewController.m */,
+				0A3DA8CD187297F20013B15D /* DAReportItemListViewController.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -481,9 +630,12 @@
 				0AB1A9C6186D748800BEACDA /* Images.xcassets in Resources */,
 				0ACC40D1187161160094EAA8 /* DAReportCreateViewController.xib in Resources */,
 				0ACC4060187115C20094EAA8 /* DAReportListViewController.xib in Resources */,
+				0A3DA8CF187297F20013B15D /* DAReportItemListViewController.xib in Resources */,
 				0ACC40CA18715DAC0094EAA8 /* ui_blank.png in Resources */,
 				0AB1A9B8186D748800BEACDA /* InfoPlist.strings in Resources */,
 				0AB1A9C1186D748800BEACDA /* Main.storyboard in Resources */,
+				0A3DA8DF1872C3490013B15D /* ProgressHUD.bundle in Resources */,
+				0A3DA8CA187297C90013B15D /* DAReportCatalogViewController.xib in Resources */,
 				0A3DA8A6187286B30013B15D /* Settings.bundle in Resources */,
 				0ACC405B187115A90094EAA8 /* DAReportViewController.xib in Resources */,
 			);
@@ -504,13 +656,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3DA8B318728A4A0013B15D /* DAReportList.m in Sources */,
 				0A62ACAB187281630070D5E3 /* AFURLConnectionOperation.m in Sources */,
 				0AB1A9BA186D748800BEACDA /* main.m in Sources */,
+				0A3DA8BC18728A7C0013B15D /* DATagList.m in Sources */,
 				0AB1A9C4186D748800BEACDA /* DAViewController.m in Sources */,
+				0A3DA8D318729FBD0013B15D /* DACanvasImageView.m in Sources */,
 				0AB1A9BE186D748800BEACDA /* DAAppDelegate.m in Sources */,
+				0A3DA8E01872C3490013B15D /* ProgressHUD.m in Sources */,
+				0A3DA8B918728A6D0013B15D /* DATag.m in Sources */,
 				0A62ACA8187281630070D5E3 /* AFJSONRequestOperation.m in Sources */,
 				0A62ACAC187281630070D5E3 /* AFXMLRequestOperation.m in Sources */,
 				0A62ACA9187281630070D5E3 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				0A3DA8C218728AC50013B15D /* DAReportModule.m in Sources */,
 				0A62AC9F187281630070D5E3 /* DACommon.m in Sources */,
 				0ACC40D0187161160094EAA8 /* DAReportCreateViewController.m in Sources */,
 				0A62ACAF187281630070D5E3 /* JastorRuntimeHelper.m in Sources */,
@@ -519,16 +677,25 @@
 				0A62ACA7187281630070D5E3 /* AFImageRequestOperation.m in Sources */,
 				0A62AC9C187281630070D5E3 /* DADispatch.m in Sources */,
 				0A62ACA1187281630070D5E3 /* DARequestHelper.m in Sources */,
+				0A3DA8AD187289ED0013B15D /* DAEntity.m in Sources */,
 				0A62ACA0187281630070D5E3 /* DAJsonHelper.m in Sources */,
 				0A62ACA3187281630070D5E3 /* Tool.m in Sources */,
+				0A3DA8CE187297F20013B15D /* DAReportItemListViewController.m in Sources */,
+				0A3DA8B618728A590013B15D /* DAUser.m in Sources */,
 				0A62AC9E187281630070D5E3 /* DAAFHttpOperation.m in Sources */,
+				0A3DA8BF18728AA90013B15D /* DAUserModule.m in Sources */,
+				0A3DA8C9187297C90013B15D /* DAReportCatalogViewController.m in Sources */,
 				0ACC405A187115A90094EAA8 /* DAReportViewController.m in Sources */,
+				0A3DA8D91872A81E0013B15D /* DASettings.m in Sources */,
 				0A62ACAD187281630070D5E3 /* UIImageView+AFNetworking.m in Sources */,
 				0A62ACB0187281630070D5E3 /* OpenUDID.m in Sources */,
 				0A62AC9D187281630070D5E3 /* DAAFHttpClient.m in Sources */,
 				0ACC405F187115C20094EAA8 /* DAReportListViewController.m in Sources */,
 				0A62ACA6187281630070D5E3 /* AFHTTPRequestOperation.m in Sources */,
+				0A3DA8C518728ADE0013B15D /* DATagModule.m in Sources */,
 				0A62ACA5187281630070D5E3 /* AFHTTPClient.m in Sources */,
+				0A3DA8B018728A360013B15D /* DAReport.m in Sources */,
+				0A3DA8D61872A5410013B15D /* DAFileModule.m in Sources */,
 				0A62ACAE187281630070D5E3 /* Jastor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
